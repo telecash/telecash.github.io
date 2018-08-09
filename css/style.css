@@ -1,0 +1,176 @@
+body {
+  min-width: 320px;
+  background: rgb(203, 255, 212);
+}
+
+.little {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.thin {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#email {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+#emailBtn {
+  height: 60px;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgb(255, 56, 31);
+  border: 0 none;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.first {
+  width: 100%;
+  height: 1000px;
+  background: url(../img/ulug.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Open Sans', sans-serif, sans, arial;
+  display: flex;
+}
+
+.tgLogo {
+  width: 300px;
+}
+
+.second {
+  color: #fff;
+  background: rgb(31, 139, 143);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.register {
+  background: #fff;
+  padding-left: 30px;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700 !important;
+  font-size: 46px !important;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+}
+
+.second i {
+  font-size: 40px;
+  padding: 40px;
+}
+
+.second h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.second p {
+  font-weight: 300;
+}
+
+.third h2 {
+  margin: 50px 0px 30px 0px;
+  font-size: 36px !important;
+}
+
+.third .man {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+}
+
+.third .name {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 26px !important;
+}
+
+.third .name span {
+  font-size: 20px !important;
+}
+
+.third .coWorker {
+  color: #999;
+  font-weight: 700;
+}
+
+.third .coWorker p {
+  margin: 0;
+}
+
+.spacer {
+  width: 100%;
+  height: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background: rgb(31, 139, 143);
+}
+
+.four h2 {
+  color: #000;
+  font-size: 36px !important;
+  margin-bottom: 25px;
+}
+
+.four .little {
+  font-size: 20px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 40px;
+  background: black;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media (max-width: 1026px) {
+  .first h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 766px) {
+  .first {
+    height: 700px;
+  }
+}
+
+@media (max-width: 472px) {
+  .first h1 {
+    font-size: 32px !important;
+  }
+  .third h2, .four h2 {
+    font-size: 25px !important;
+  }
+  .third .man {
+    width: 200px;
+  }
+}
+
+@media (max-width: 340px) {
+  .first h1 {
+    font-size: 28px !important;
+  }
+}
